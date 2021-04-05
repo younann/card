@@ -347,8 +347,30 @@ textarea.input1 + .shadow-input1 {
   }
 
   .contact1-form {
-    width: 100%;
+    width: 300px;
+    margin-left: -200px;
+    margin-top: 252%;
   }
+  .logo {
+    width: 110% !important;
+    position: relative;
+    left: 32% !important;
+    padding-top: 5%;
+}
+
+body > div > div:nth-child(1) > div.col-7 > div:nth-child(2) > p {
+  color: white;
+  font-size: 13px !important;
+  padding-left: 20% !important;
+  padding-top: 10% !important;
+}
+.logothanks{
+  width: 68% !important;
+  position: relative;
+  left: 17% !important;
+  padding-top: 5%;
+}
+
 }
 
 @media (max-width: 576px) {
