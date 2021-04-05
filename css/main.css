@@ -333,11 +333,18 @@ textarea.input1 + .shadow-input1 {
   }
 
   .contact1-form {
-    width: 55%;
+    width: 126%;
+  }
+  .logo{
+    width: 63% !important;
+    left: 14% !important;
+  }
+  body > div > div:nth-child(1) > div.col-7 > div:nth-child(2) > p{
+    font-size: 24px !important;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container-contact1 {
     padding: 90px 80px 88px 80px;
   }
@@ -377,6 +384,10 @@ body > div > div:nth-child(1) > div.col-7 > div:nth-child(2) > p {
   .container-contact1 {
     padding: 90px 15px 88px 15px;
   }
+}
+
+@media (max-width:1024px){
+
 }
 
 
